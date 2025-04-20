@@ -75,6 +75,8 @@ utkarsh@utkarsh-VirtualBox:~/myproject$ git commit -m "syscall changes"
 
 
 git remote add origin git@github.com:uk225/systemcall.git
+or
+git remote set-url origin git@github.com:uk225/systemcall.git
 
 
 utkarsh@utkarsh-VirtualBox:~/myproject$ git config pull.rebase false
@@ -135,8 +137,8 @@ git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/uk225/gitset_on_linux.git
+git remote add origin git@github.com/uk225/gitset_on_linux.git
+git remote set-url origin git@github.com:uk225/systemcall.git
 git push -u origin main
-
 
 
